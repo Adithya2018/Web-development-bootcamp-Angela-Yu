@@ -7,7 +7,8 @@
 </head>
 
 <body>
-  <h1>1. Heading Tags</h1>
+  <h1>Section 2: Introduction to HTML</h1>
+  <h2>1. Heading Tags</h2><hr>
   <h2>Heading 2</h2>
   <h3>Heading 3</h3>
   <h4>Heading 4</h4>
@@ -16,7 +17,7 @@
   <br><!-- Line Break !-->
   <hr><!-- Horizontal Line !-->
 
-  <h1>2. Text Formating</h1>
+  <h2>2. Text Formating</h2>
   <p>Simple paragraph</p>
   <i>Itallics style.</i>
   <em>Emphasis (Use it over Itallics)</em>
@@ -25,7 +26,7 @@
   <strong>Strong (Use it over bold tag)</strong>
 
   <br /><hr>
-  <h1>3. Ordered and Unoredered Lists</h1>
+  <h2>3. Ordered and Unoredered Lists</h2>
   <ol>
     <li>Item 1</li>
     <li>Item 1</li>
@@ -38,18 +39,92 @@
   </ul>
   <br /><hr>
 
-  <h1>4. Image Element</h1>
+  <h2>4. Image Element</h2>
   <img src="https://media-exp1.licdn.com/dms/image/C5603AQHh4x5wpfzZJg/profile-displayphoto-shrink_800_800/0/1648287738320?e=2147483647&v=beta&t=u9f1Q62UKy6_O660HFVLNr9u2TIvfVSODuzhp3SrXTw" alt="Sample picture">
   <img src="images/fake-human-circle-img.png" alt="">
 
   <br /><hr>
 
-  <h1>5. HTML Links and Anchor Tags</h1>
+  <h2>5. HTML Links and Anchor Tags</h2>
   <p>My Github Account link: <a href="https://github.com/Adithya2018" target="_blank">https://github.com/Adithya2018</a></p>
   <p>LinkedIn Account: <a href="https://www.linkedin.com/in/adithyan-s-raj/" target="_blank">https://www.linkedin.com/in/adithyan-s-raj/</a></p>
-
   <br /><hr>
 
+  <h1>Section 3: Intermediate HTML</h1>
+  <br><hr>
+  <h2>1. HTML Tables</h2>
+  <table cellspacing="10">
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Adithyan</td>
+        <td>S Raj</td> 
+      </tr>
+      <tr>
+        <td>Jane</td>
+        <td>Doe</td>
+      </tr>  
+    </tbody>
+    <tfoot>
+    </tfoot>    
+  </table>
+  <br><hr>
+
+  <h2>2. HTML Nested Tables</h2>
+  <table>
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>HTML5</td>
+            <td>★★★★✫</td>
+          </tr>
+          <tr>
+            <td>CSS3</td>
+            <td>★★★✫✫</td>
+          </tr>
+          <tr>  
+            <td>Javascript</td>
+            <td>★★✫✫✫</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>Python</td>
+            <td>★★★✫✫</td>
+          </tr>
+          <tr>
+            <td>C/C++</td>
+            <td>★★✫✫✫</td>
+          </tr>
+          <tr>
+            <td>C#</td>
+            <td>★✫✫✫✫</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <br><hr>
+
+  <h2>3. HTML Form</h2>
+  <form action="index.html">
+    <label for="">Your Name:</label>
+    <input type="text" name="" id=""><br>
+    <input type="color" name="" id=""><br>
+    <label for="">Do you want to sign up to the email list?</label>
+    <input type="checkbox" name="" id=""><br>
+    <label for="">Password: </label>
+    <input type="password" name="" id=""><br>
+    <input type="submit" name="">
+</form>
 </body>
 
 </html>
