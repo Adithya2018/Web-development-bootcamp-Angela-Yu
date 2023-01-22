@@ -1,3 +1,0 @@
-devdocs.io
-mdn
-w3schools
